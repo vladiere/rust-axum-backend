@@ -1,0 +1,13 @@
+[env]
+RUST_LOG="axum_crud=debug"
+
+SERVER_URL="127.0.0.1"
+SERVER_PORT="5000"
+
+DB_NAME="axum_crud"
+DB_HOST="localhost"
+DB_USER="crud_dev"
+DB_PASS="dev_only_pass"
+DB_PORT="5432"
+
+DATABASE_URL="postgres://library_user:library_dev_only@localhost/cpclibrary"
